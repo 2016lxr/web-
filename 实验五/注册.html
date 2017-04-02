@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单注册</title>
+	<meta charset="utf-8">
+</head>
+<body>
+   <table border="1" align="center">
+   <tr>
+     <td colspan="6">用户名：</td>
+     <td colspan="20"><form><input type="text" name="用户名"></form></td>
+   </tr>
+   <tr>
+     <td colspan="6">密码：</td>
+     <td colspan="20"><form><input type="password" name="密码"></form></td>
+   </tr>
+   <tr>
+     <td colspan="6">确认密码：</td>
+     <td colspan="20"><form><input type="password" name="密码"></form></td>
+   </tr>
+   <tr>
+     <td colspan="6">性别：</td>
+     <td colspan="20"><form><input type="radio" name="性别">男 <input type="radio" name="性别">女</form></td>
+   </tr>
+   <tr>
+     <td colspan="6">生日：</td>
+     <td colspan="20"><form>
+     <select name="公历">
+     <option value="first">公历</option>
+     <option value="two">农历</option>
+     </select>
+     <select name="年">
+      <option value="first">1991</option>
+      <option value="two">1993</option>
+      <option value="three">1994</option>
+      <option value="four">1995</option>
+      <option value="five">1996</option>
+      <option value="six">1997</option>
+      <option value="seven">1998</option>
+     </select>
+     <select name="月">
+      <option value="first">一月</option>
+      <option value="two">二月</option>
+      <option value="three">三月</option>
+      <option value="four">四月</option>
+      <option value="five">五月</option>
+      <option value="six">六月</option>
+      <option value="seven">七月</option>
+      <option value="eight">八月</option> 
+      <option value="nine">九月</option>
+      <option value="ten">十月</option>
+      <option value="eleven">十一月</option>
+      <option value="twelve">十二月</option>
+     </select>
+     <select name="日">
+      <option value="first">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="five">5</option>
+      <option value="six">6</option>
+      <option value="seven">7</option>
+      <option value="eight">8</option> 
+      <option value="nine"9</option>
+      <option value="ten">10</option>
+      <option value="eleven">11</option>
+      <option value="twelve">12</option>
+     </select>
+     </form></td>
+   </tr>
+   <tr>
+    <td colspan="6">所在地：</td>
+    <td colspan="20"><form>
+    <select name="中国">
+      <option value="first">中国</option>
+      <option value="two">美国</option>
+      <option value="three">英国</option>
+      <option value="four">法国</option>
+    </select>
+    <select name="河北">
+          <option value="first">河北</option>
+      <option value="two">北京</option>
+      <option value="three">河南</option>
+      <option value="four">四川</option>
+    </select>
+    <select name="石家庄">
+      <option value="first">石家庄</option>
+      <option value="two">唐山</option>
+      <option value="three">衡水</option>
+      <option value="four">邯郸</option>
+    </select>
+    </form></td>
+   </tr>
+   <tr>
+     <td colspan="6">验证码：</td>
+     <td colspan="20"><form><input type="text" name="验证码"></form><img src="yanzhengma.jpg"></td>
+   </tr>
+   <tr>
+     <td colspan="6">证件类型：</td>
+     <td colspan="20"><form>
+     <select name="身份证">
+      <option value="first">身份证</option>
+      <option value="two">学生证</option>
+      <option value="three">护照</option>
+     </select>
+     </form></td>
+   </tr>
+   <tr>
+     <td colspan="6">证件号：</td>
+     <td colspan="20"><form><input type="text" name="证件号"></form></td>
+   </tr>   
+   <tr>
+     <td colspan="6">爱好：</td>
+     <td colspan="20"><form><input type="checkbox" name="爱好">音乐 <input type="checkbox" name="爱好">读书<input type="checkbox" name="爱好">跳舞 <input type="checkbox" name="爱好">下棋<input type="checkbox" name="爱好">其他</form></td>
+   </tr>
+   <tr>
+   <td colspan="26">说明：<textarea rows="10" cols="500"></textarea></td>
+   </tr> 
+   <tr>
+     <td colspan="6">上传头像：</td>
+     <td colspan="20"><form><input type="file" name="ding"></form></td>
+   </tr> 
+   <tr>
+   <td colspan="26" align="center"><form><input type="submit" value="提交"/><input type="reset" name="button" id="button" value="重置" /> 
+  <input type="button" value="按钮"/>
+</form></td>
+   </tr>       
+  </table>
+</body>
+</html>
