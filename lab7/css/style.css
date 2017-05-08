@@ -1,0 +1,8 @@
+body{font-size: 12px;font-family: Arial;color: gray;line-height: 2em;}
+a{color: #727272;text-decoration: none;}
+a:hover{text-decoration: underline;}
+table tr td{font-size: 14px;color: #727272;font-weight: bolder;}
+table tr td a{color: white;}
+table tr td a:hover{color: #b9f605;text-decoration:none;}
+table tr td ul li a{color: #727272;}
+.special{color: #fdb306;}
